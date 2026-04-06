@@ -20,8 +20,10 @@ It can be used as a reference or installed directly on another machine.
 
 ```bash
 git clone https://github.com/coltonlinux/nixconfig /mnt/etc/nixos
+```
 
-nixos-install --flake /mnt/etc/nixos#nixos
-
+4. Install the config:
+```bash
+bash nixos-install --flake /mnt/etc/nixos#nixos
 reboot
-
+```
